@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(170, 129, 52);
+}
+.todonew{
+    display: flex;
+    flex-direction: row;
+}
+.todoContainer{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 650px;
+    max-width: 700px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li{
+    margin-top: 15px;
+    list-style-type: none;
+    font-size: larger;
+    display:flex;
+    width: 500px;
+    flex-direction: row;
+    background-color: rgb(99, 145, 129);
+    width: fit-content;
+    justify-content: space-between;
+}
+.todonewInput{
+    height: 60px;
+    border-radius: 5%;
+}
+.todoliContainer{
+    margin-left: -70px;
+}
+button{
+    width: 65px;
+    height: 65px;
+}
+.todonewplus {
+    background-image: url(./plus.png);
+
+}
+.chekedAll{
+    background-image: url(./checked-box.png);
+}
+.deleteAll{
+    background-image: url(./bin-with-lid.png);
+}
+.delete {
+    background-image: url(./bin-with-lid.png);
+}
