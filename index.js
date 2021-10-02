@@ -3,8 +3,8 @@ const buttonAdd = document.querySelector(".todonewplus");
 const buttondeleteAll = document.querySelector(".deleteAll");
 const liContainer = document.querySelector(".todoliContainer");
 const pendingText = document.querySelector(".pendingText")
-var tasks = 0;
-var id = 0;
+let tasks = 0;
+let id = 0;
 const buttonchekedAll = document.querySelector('.chekedAll')
 
 
